@@ -38,3 +38,18 @@ for i in range(1,len(s)):
         print((count,s[i-1]), end='')
         count=1
 print((count,s[-1]));
+
+#--------------------------------------
+pack1=int(input("Enter the pack1 weight"))
+pack1price=float(input("Enter the pack1 price"))
+pack2=int(input("Enter the pack2 weight"))
+pack2price2=float(input("Enter the pack2 price"))
+
+pp1=pack1*pack1price
+pp2=pack2*pack2price2
+
+if( pp1>pp2):
+    print("Pack 1 is Good : ",pp1);
+else:
+    print("Pack 2 is Good : ",pp2)
+
