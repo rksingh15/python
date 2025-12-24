@@ -53,3 +53,31 @@ if( pp1>pp2):
 else:
     print("Pack 2 is Good : ",pp2)
 
+#-------------------------------------------------
+a=int(input("Enter the  number : "))
+if a>0:
+    print(a*(a+1)/2)
+else:
+     print('-',a*(a-1)/2)
+#-------------------------------------------------------
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+
+a=0
+b=1
+sum=0
+print(a)
+print(b)
+for i in range(0,25):
+    c=a+b
+    if c>25:
+        break
+    else:
+        if(i%2==0):
+            sum+=c
+        print(c)
+        a=b
+        b=c
+        
+print("The sum is : ",sum)
