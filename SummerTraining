@@ -102,4 +102,23 @@ for i in range(0,a):
         print("This is even Number ",i)
     else:
         print("This is Odd  Number ",i)
+#_________----------------------------------------------------------------------
+str1= input("str: ")
+x=0
+y=0
+
+length = len(str1)
+
+for i in range (0,length):
+    if( str1[i]=='('):
+        x+=1
+    elif(str1[i]==')'):
+        y+=1
         
+if(x==y):
+    print("Valid and depth : ",x)
+elif y>x:
+    print("Not valid and error  ", y-x)
+else:
+    print("not valid and error ", x-y)
+
