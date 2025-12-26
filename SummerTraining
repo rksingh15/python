@@ -30,6 +30,18 @@ print("#----------------------------------------------------------")
 #Counting number
 s="12223311"
 
+
+#==================================================================
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+a=int(input("Enter any number : "))
+for i in range(0,a):
+    if(i%2==0):
+        print("This is even Number ",i)
+    else:
+        print("This is Odd  Number ",i)
+        
+
 count = 1
 for i in range(1,len(s)):
     if s[i]==s[i-1]:
