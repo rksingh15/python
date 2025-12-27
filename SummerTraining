@@ -121,4 +121,10 @@ elif y>x:
     print("Not valid and error  ", y-x)
 else:
     print("not valid and error ", x-y)
+#-----------------------------------------------------------------------
+n = 3
+for i in range(1, n + 1):
+    for j in range(i):
+        print(chr(65 + j), end="")
+    print()
 
